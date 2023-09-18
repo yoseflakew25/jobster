@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-const Wrapper = styled.nav`
+const NavContainer = styled.nav`
   height: var(--nav-height);
   display: flex;
   align-items: center;
@@ -26,7 +26,10 @@ const Wrapper = styled.nav`
     display: flex;
     align-items: center;
   }
-  background: var(--white);
+  background: ${(props) =>
+    props.scroll ? "rgba(255, 255, 255, 0.4)" : "var(--white)"};
+  backdrop-filter: ${(props) => (props.scroll ? "blur(10px)" : "none")};
+  -webkit-backdrop-filter: ${(props) => (props.scroll ? "blur(10px)" : "none")};
   .btn-container {
     position: relative;
   }
@@ -69,7 +72,6 @@ const Wrapper = styled.nav`
   @media (min-width: 992px) {
     position: sticky;
     top: 0;
-
     .nav-center {
       width: 90%;
     }
@@ -80,5 +82,6 @@ const Wrapper = styled.nav`
       display: block;
     }
   }
-`
-export default Wrapper
+`;
+
+export default NavContainer;
