@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const Wrapper = styled.section`
   display: flex;
-  flexDirection: 'column',
+  flex-direction: column,
   align-items: center;
   .logo {
     display: block;
