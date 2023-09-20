@@ -215,7 +215,6 @@ ul {
   padding: 2rem 2.5rem;
   margin: 3rem auto;
   transition: var(--transition);
-
 }
 .form:hover {
   box-shadow: var(--shadow-4);
@@ -230,7 +229,7 @@ ul {
 .form-input,
 .form-textarea,
 .form-select {
-  width: 350px;
+  width: 100%;
   padding: 0.375rem 0.75rem;
   border-radius: var(--borderRadius);
   background: var(--backgroundColor);
