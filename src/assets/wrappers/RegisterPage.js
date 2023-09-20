@@ -15,7 +15,11 @@ const Wrapper = styled.section`
     flex-direction: column;
   }
 
-  h3 {
+  .FormRow {
+    width: 100%;
+  }
+  
+   h3 {
     text-align: center;
   }
   p {
@@ -33,5 +37,5 @@ const Wrapper = styled.section`
     cursor: pointer;
     letter-spacing: var(--letterSpacing);
   }
-`
+`;
 export default Wrapper
