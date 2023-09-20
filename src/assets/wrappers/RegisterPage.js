@@ -13,11 +13,11 @@ const Wrapper = styled.section`
     border-top: 5px solid var(--primary-500);
     display: flex;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
-  .FormRow {
-    width: 300px%;
-  }
+
   
    h3 {
     text-align: center;

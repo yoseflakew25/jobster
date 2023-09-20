@@ -65,7 +65,7 @@ function Register() {
         )}
         {/* email field */}
         <FormRow
-          className="FormRow"
+        
           type="email"
           name="email"
           value={values.email}
@@ -78,7 +78,7 @@ function Register() {
           value={values.password}
           handleChange={handleChange}
         />
-        vxjkbvkjxcbvj hello world again
+         hello world again
         <button type="submit" className="btn btn-block" disabled={isLoading}>
           {isLoading ? "loading..." : "submit"}
         </button>
