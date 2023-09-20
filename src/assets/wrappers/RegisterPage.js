@@ -12,14 +12,10 @@ const Wrapper = styled.section`
     max-width: 400px;
     border-top: 5px solid var(--primary-500);
     display: flex;
-    flex-direction: column;
-    display: flex;
-    flex-direction: column;
+    flex-direction:
   }
 
-
-  
-   h3 {
+  h3 {
     text-align: center;
   }
   p {
@@ -37,5 +33,5 @@ const Wrapper = styled.section`
     cursor: pointer;
     letter-spacing: var(--letterSpacing);
   }
-`;
+`
 export default Wrapper

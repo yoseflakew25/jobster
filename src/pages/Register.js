@@ -78,7 +78,7 @@ function Register() {
           value={values.password}
           handleChange={handleChange}
         />
-         hello world again
+
         <button type="submit" className="btn btn-block" disabled={isLoading}>
           {isLoading ? "loading..." : "submit"}
         </button>
