@@ -215,8 +215,7 @@ ul {
   padding: 2rem 2.5rem;
   margin: 3rem auto;
   transition: var(--transition);
-  display: flex;
-  flex-direction: column;
+
 }
 .form:hover {
   box-shadow: var(--shadow-4);
