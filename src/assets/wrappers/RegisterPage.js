@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.section`
-  display: grid;
+  display: flex;
+  flexDirection: 'column',
   align-items: center;
   .logo {
     display: block;
