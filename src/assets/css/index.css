@@ -229,7 +229,7 @@ ul {
 .form-input,
 .form-textarea,
 .form-select {
-  width: 100%;
+  width: 350px;
   padding: 0.375rem 0.75rem;
   border-radius: var(--borderRadius);
   background: var(--backgroundColor);
