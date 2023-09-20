@@ -16,7 +16,7 @@ const Wrapper = styled.section`
   }
 
   .FormRow {
-    width: 100%;
+    width: 300px%;
   }
   
    h3 {
